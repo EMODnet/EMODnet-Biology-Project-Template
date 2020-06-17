@@ -1,6 +1,8 @@
-# {{project_name}}
+# {{cookiecutter.product_name}}
 
-{{project_description}}
+## Introduction
+
+{{product_introduction}}
 
 ## Directory structure
 
@@ -21,19 +23,36 @@
 * **product** - Output product files
 * **scripts** - Reusable code
 
-## Data
+## Data series
 
-Raw data can be downloaded from EMODnet Biology using the following WFS request:
+{{data_series}}
 
 ```
 {{data_wfs_request}}
 ```
 
-## Analysis
+## Data product
 
-...
+{{data_product_description}}
 
-## Citation
+## More information:
 
-Please cite this product as:
-*{{citation}}*
+### References
+
+### Code and methodology
+
+{{link_code}}
+
+### Citation and download link
+
+This product should be cited as:
+
+{{product_citation}}
+
+Available to download in:
+
+{{link_download}}
+
+### Authors
+
+{{product_authors}}
