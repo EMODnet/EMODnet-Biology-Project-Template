@@ -1,4 +1,4 @@
-# {{cookiecutter.product_name}}
+# {{product_name}}
 
 ## Introduction
 
